@@ -35,3 +35,65 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-wrapper {
+  margin: auto 5rem;
+  max-width: 375px;
+}
+
+.score-card {
+  text-align: center;
+  background-image: linear-gradient(
+    var(--Light-slate-blue),
+    var(--Light-royal-blue)
+  );
+  color: var(--White);
+  padding: 2rem;
+  border-radius: 0 0 1.4rem 1.4rem;
+}
+
+h2.result {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--Light-lavender);
+}
+
+.score {
+  background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+  border-radius: 50%;
+  margin: auto 5.6rem;
+  padding: 1.4rem;
+}
+
+.score h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.score p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--Light-lavender);
+}
+
+h2.great {
+  margin: 1rem auto 0.6rem auto;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+p.stat {
+  color: var(--Light-lavender);
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
