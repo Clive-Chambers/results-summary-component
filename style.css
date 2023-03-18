@@ -49,6 +49,8 @@ main {
   max-width: 375px;
 }
 
+/* ### SCORE CARD STYLES ### */
+
 .score-card {
   text-align: center;
   background-image: linear-gradient(
@@ -96,4 +98,114 @@ p.stat {
   font-weight: 400;
   font-size: 0.9rem;
   padding: 0 2rem;
+}
+
+/* ### SUMMARY CARD STYLES ### */
+
+.summary-card {
+  padding: 1.4rem;
+}
+
+.summary-card h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--Dark-gray-blue);
+  margin-bottom: 1rem;
+}
+
+.summary-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.tab-score p {
+  color: hsla(224, 30%, 27%, 50%);
+}
+
+.tab-score span {
+  font-weight: 700;
+  color: var(--Dark-gray-blue);
+}
+
+/* ### REACTION TAB STYLES ### */
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 10%);
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+}
+
+.reaction-title {
+  color: var(--Light-red);
+  margin-left: 0.6rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* ### MEMORY TAB STYLES ### */
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 10%);
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+}
+
+.memory-title {
+  color: var(--Orangey-yellow);
+  margin-left: 0.6rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* ### VERBAL TAB STYLES ### */
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 10%);
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+}
+
+.verbal-title {
+  color: var(--Green-teal);
+  margin-left: 0.6rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* ### VISUAL TAB STYLES ### */
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 10%);
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.visual-title {
+  color: var(--Cobalt-blue);
+  margin-left: 0.6rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* ### CONTINUE BUTTON STYLES ### */
+
+.continue-btn {
+  background-color: var(--Dark-gray-blue);
+  width: 100%;
+  padding: 1rem 8rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: var(--White);
+}
+
+.continue-btn:hover,
+.continue-btn:active {
+  background-color: var(--Light-royal-blue);
 }
